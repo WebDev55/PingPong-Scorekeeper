@@ -3,16 +3,33 @@
   <head>
     <link rel = "stylesheet" type = "text/css" href = "css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src = "js/script.js"></script>
   </head>
 
   <body>
+    <h1>Score Keeper</h1>
+    <p>Made by Srujan Tripathi</p>
+    <br/>
+    
+    <input type = "button" value = "Reset Scores">
+    <br/>
+    <br/>
+    <br/>
+
+
     <div class = "scorebox" id = "player_1">
       <h1 contenteditable = "true">Player 1</h1>
-      <h1 class = "score">0</h1>
+      <h1 id = "score_1">0</h1>
+      <img id = "sub_1" src = "https://b.kisscc0.com/20180817/kyw/kisscc0-plus-and-minus-signs-plus-minus-sign-meno-symbol-dev-minus-5b77315298c036.1672412015345380666257.png"/>
+      <img id = "add_1" src = "https://png2.kisspng.com/20180329/cww/kisspng-computer-icons-symbol-addition-plus-and-minus-sign-plus-5abccceb04af24.5488766715223226670192.png"/>
     </div>
+
     <div class = "scorebox" id = "player_2">
       <h1 contenteditable = "true">Player 2</h1>
-      <h1 class = "score">0</h1>
+      <h1 id = "score_2">0</h1>
+      <img id = "sub_2" src = "https://b.kisscc0.com/20180817/kyw/kisscc0-plus-and-minus-signs-plus-minus-sign-meno-symbol-dev-minus-5b77315298c036.1672412015345380666257.png"/>
+      <img id = "add_2" src = "https://png2.kisspng.com/20180329/cww/kisspng-computer-icons-symbol-addition-plus-and-minus-sign-plus-5abccceb04af24.5488766715223226670192.png"/>
     </div>
   </body>
 </html>
